@@ -1,0 +1,63 @@
+body {
+    background-color: #223;
+}
+#carousel {
+    border: 5px solid #555;
+    margin: 30px auto;
+    width: 810px;
+    height: 800px;
+    color: white;
+    font-size: 50px;
+}
+#carouselSlides {
+    width: 810px;
+    height: 600px;
+    margin-left: 5px;
+
+    position: absolute;
+}
+#carouselSlides h4 {
+    color: orange;
+
+    font-size: 80px;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    position: absolute;
+    top: 150px;
+     z-index: 1;
+
+     margin-left: 190px;
+
+
+}
+#carouselTitles {
+    border: 1px solid black;
+    font-size: 100px;
+}
+#carouselIndicators {
+    position: relative;
+    top: -50px;
+    left: 350px;
+    font-size: 90px;
+    color: yellowgreen;
+}
+#carousel .buttons {
+
+    display: flex;
+    justify-content:space-around;
+
+    margin-top: -70px;
+}
+#carousel .buttons .btn-1,
+#carousel .buttons .btn-2,
+#carousel .buttons .btn-play {
+    background-color: #223;
+    border: none;
+    border-radius: 100%;
+}
+#carousel .buttons .btn-1:hover,
+#carousel .buttons .btn-2:hover,
+#carousel .buttons .btn-play:hover {
+    background-color: yellowgreen;
+}

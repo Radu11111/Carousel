@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS CAROUSEL | With + CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body onkeydown="action()">
+    <div id="carousel">
+        <div class="slides" id="carouselSlides">
+        </div>
+        <div id="carouselTitles">
+            <!-- hw7*: add effects to titles ---done -->
+        </div>
+        <!-- hw5:Arrows with fontawesome/icons --Done --> 
+        <!-- hw6:Style it --Done 
+            hw8*Keyboard enabled Carousel   --done--> 
+        <span id="carouselIndicators"></span>
+        <div class="buttons">
+        <button class="btn-1" onclick="prev()">
+        <img src="https://icons.iconarchive.com/icons/icons8/windows-8/72/Arrows-Left-Round-icon.png" alt="">
+        </button>
+        <button class="btn-2" onclick="next()">
+        <img src="https://icons.iconarchive.com/icons/icons8/windows-8/72/Arrows-Right-Round-icon.png" alt="">
+        </button>
+        <button class="btn-play" onclick="play()">
+        <img src="https://icons.iconarchive.com/icons/danieledesantis/audio-video-outline/72/play-icon.png" alt="">
+        </button>
+        </div>
+    </div>
+    <script src="carousel.js"></script>
+</body>
+</html>
